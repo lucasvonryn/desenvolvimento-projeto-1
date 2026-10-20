@@ -1,0 +1,37 @@
+@layer components {
+    .card {
+        @apply rounded-lg bg-white p-5 ring-1 ring-slate-200;
+    }
+
+    .card-span {
+        @apply rounded-lg bg-white p-5 ring-1 ring-slate-200 md:col-span-2;
+    }
+
+    .card-section {
+        @apply mb-8 rounded-lg bg-white p-5 ring-1 ring-slate-200;
+    }
+
+    .card-filters {
+        @apply mb-8 rounded-lg bg-white p-5 ring-1 ring-slate-200;
+    }
+
+    .definition-list {
+        @apply space-y-2 text-sm;
+    }
+
+    .definition-list dt {
+        @apply text-slate-500;
+    }
+
+    .stat-list {
+        @apply space-y-1 text-sm;
+    }
+
+    .stat-list-total {
+        @apply border-t border-slate-100 pt-2;
+    }
+
+    .ranking-list {
+        @apply list-decimal space-y-1 pl-5 text-sm;
+    }
+}

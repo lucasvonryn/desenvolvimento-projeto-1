@@ -1,0 +1,21 @@
+@layer components {
+    .alert {
+        @apply mb-6 rounded-md border px-4 py-3 text-sm;
+    }
+
+    .alert-success {
+        @apply border-teal-200 bg-teal-50 text-teal-900;
+    }
+
+    .alert-error {
+        @apply border-red-200 bg-red-50 text-red-800;
+    }
+
+    .alert-warning {
+        @apply rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900;
+    }
+
+    .alert-error ul {
+        @apply list-disc pl-4;
+    }
+}

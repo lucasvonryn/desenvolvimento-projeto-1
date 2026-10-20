@@ -1,0 +1,13 @@
+@layer components {
+    .company-nav {
+        @apply mb-6 flex flex-wrap gap-2 text-sm;
+    }
+
+    .company-nav-link {
+        @apply rounded-md bg-white px-3 py-1.5 text-slate-700 ring-1 ring-slate-200 hover:bg-slate-100;
+    }
+
+    .company-nav-link-active {
+        @apply rounded-md bg-slate-900 px-3 py-1.5 text-white;
+    }
+}
